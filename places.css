@@ -1,51 +1,51 @@
 body {
     background-color: #002856;
     color: #ECAA00;
-    overflow: hidden;
+}
+
+.container-fluid {
+    margin-top: 25px;
+}
+
+.card {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #002856;
+}
+
+.card .card-title {
+    color: #002856;
+    font-size: 2rem;
+}
+
+.card-body a {
+    color: #002856;
+    text-decoration: underline;
+}
+
+.card p {
+    margin-bottom: 2px;
 }
 
 .main {
     margin: 0 auto;
+    margin-top: 50px;
     text-align: center;
     width: 80%;
 }
 
-.parent {
-    display: flex;
-    flex-direction: column;
-    height: 200px;
+.btn {
+    background-color: #ECAA00;
+}
+
+.footer {
+    bottom: 0;
     width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.row {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: inherit;
-    justify-content: center;
-    margin: 20px;
-    width: 100%;
-}
-
-.park {
-    height: inherit;
-    margin: 10px;
-    width: 20%;
-    border: 1px solid #fff;
-}
-
-.park h1 {
-    text-align: start;
-}
-
-.park img {
-    width: 70%;
-    height: 70%;
-    margin-bottom: 5px;
-    align-items: center;
-    display: inline
-}
-
-.park a {
-    color: #ECAA00;
+.footer a {
+    color: #fff;
 }
