@@ -1,48 +1,51 @@
 body {
     background-color: #002856;
     color: #ECAA00;
+    overflow: hidden;
 }
 
 .main {
-    text-align: center;
-    width: 75%;
     margin: 0 auto;
-}
-
-.tour {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    margin-top: 25px;
-}
-
-.card {
-    display: flex;
-    flex-flow: column;
-    text-align: start;
-    flex: 25%;
-    background-color: #e1d1a7;
-    color: #75391c;
-    padding: 1pc;
-}
-
-.card h1 {
     text-align: center;
-    color: #75391c;
+    width: 80%;
 }
 
-.card .row {
+.parent {
     display: flex;
-    flex-flow: row;
-    margin-bottom: 10px;
-}
-
-.card img {
+    flex-direction: column;
+    height: 200px;
     width: 100%;
-    height: fill;
 }
 
 .row {
-    margin: -5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.park {
+    height: inherit;
+    margin: 10px;
+    width: 20%;
+    border: 1px solid #fff;
+}
+
+.park h1 {
+    text-align: start;
+}
+
+.park img {
+    width: 70%;
+    height: 70%;
+    margin-bottom: 5px;
+    align-items: center;
+    display: inline
+}
+
+.park a {
+    color: #ECAA00;
 }

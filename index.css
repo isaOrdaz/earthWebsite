@@ -15,7 +15,6 @@ body {
 
 .button {
     display: inline-block;
-    border: 5px solid red;
     padding: 10px;
     background-color: #ECAA00;
     color: #fff;
